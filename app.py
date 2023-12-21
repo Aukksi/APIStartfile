@@ -9,7 +9,12 @@ app = Flask(__name__)
 @app.route('/')
 def index():
    #print('Moro')
-   return 'Tere'
+  try:
+    os.system(f'python {/paivansoppa.py}')
+    return 'Joo'
+  except FileNotFoundError:
+    
+    return 'Ei'
 
 
 #@app.route('/hello', methods=['GET'])
