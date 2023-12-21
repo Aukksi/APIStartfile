@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'AH-RestAPI'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9546293B36474589B1F9F0E54A05CC64 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_381562C196C847DFA8BF083A44D009B0 }}
